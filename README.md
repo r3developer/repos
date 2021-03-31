@@ -1,6 +1,6 @@
 # Portal for R3 Developers @ GitHub
 
-Visit [https://r3dev.github.io/](https://r3dev.github.io/) to view rendered repository.
+Visit [https://r3developer.github.io/](https://r3developer.github.io/) to view rendered repository.
 The page contains a listing of repositories that are open source and maintained by R3 Developers.
 
 ### Getting Started
@@ -25,9 +25,9 @@ $ git push origin branch_name
 
 ### Add a New Repository to the List
 
-To have a new repository show up at [r3dev.github.io](r3dev.github.io), a change to [repo.js](repo.js) file is required.
+To have a new repository show up at [r3developer.github.io](r3developer.github.io), a change to [repos.js](repos.js) file is required.
 
-* To add all the repositories inside a Github organization: Add a new entry to [repo.js](repo.js), specify the repo category, name, URL, watchers, fork, language, and description:
+* To add all the repositories inside a Github organization: Add a new entry to [repos.js](repos.js), specify the repo category, name, URL, watchers, fork, language, and description:
 
 ```
     {
