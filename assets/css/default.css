@@ -105,9 +105,12 @@ main .navbar-toggler { font-size: unset; line-height: initial; }
     .subheader .input-group { margin-top: .75rem; }
     .terms { text-align: center !important; }
     .footer-links { -webkit-column-count: 2; -moz-column-count: 2; column-count: 2; margin-top: 1rem; }
+    .top-cnt .col-lg-3 { margin-top: 1rem; }
 }
 @media (max-width: 767px)  {
     .repo-item.nav-item { padding: .75rem 0; }
+    .top-cnt .col-lg-9, .top-cnt .col-lg-3 { width: 50%; }
+    .top-cnt .col-lg-3 { margin-top: 0; }
 }
 
 /* ------------------------- */

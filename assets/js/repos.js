@@ -195,7 +195,7 @@
 
 	function addRepoDiv(repoName, repoTitle) {
 		$(`<div id="${repoName}-div" class="repo-div">`).appendTo('#allrepos-div');
-		$(`<h2 id="${repoName}-title" class="repo-title mb-3 mt-6">`).appendTo(`#${repoName}-div`);
+		$(`<h2 id="${repoName}-title" class="repo-title mb-3 mt-5">`).appendTo(`#${repoName}-div`);
 		$(`#${repoName}-title`).text(repoTitle);
 		$(`<div id="${repoName}-repos" class="row row-cols-1 row-cols-md-4 g-4">`).appendTo(`#${repoName}-div`);
 	}
